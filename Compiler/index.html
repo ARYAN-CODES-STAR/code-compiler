@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcode</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8c216ef9ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+           <label><i class="fa-brands fa-html5" style="color: #245494;"></i>HTML</label> 
+           <textarea id="html-code" onkeyup="run()" cols="30" rows="10"></textarea>
+        
+           <label><i class="fa-brands fa-css3-alt" style="color: #295bb3;"></i>CSS</label> 
+           <textarea id="css-code" onkeyup="run()" cols="30" rows="10"></textarea>
+
+           <label><i class="fa-brands fa-js" style="color: #2553a2;"></i>JS</label> 
+           <textarea id="js-code" onkeyup="run()" cols="30" rows="10"></textarea>
+        </div>
+        <div class="right">
+            <label><i class="fa-solid fa-play" style="color: #2653a1;"></i>Output</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
